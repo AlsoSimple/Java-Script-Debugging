@@ -11,3 +11,14 @@ const myBooks = ["The Catcher in the Rye",
     "The Da Vinci Code",
     "The Hunger Games"]
 
+  console.clear();
+  console.time();
+  console.group('konsol opgave')
+    console.log ('jeg er en almendelig konsol log')
+    console.log ('jeg er en konsol info:', myInfo);
+
+    console.warn('jeg er en advarsel!');
+    console.error('jeg er en fejl!!!')
+
+    console.table (myBooks)
+    console.timeLog();
